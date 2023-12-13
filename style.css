@@ -28,12 +28,14 @@ body {
 .logo {
   height: 50px;
 }
+
 .Navbar .menu {
   display: flex;
   justify-content: space-between;
-  width: 550px;
-  height: 0;
-  margin-left: 900px;
+  align-items: center;
+  width: 700px;
+  height: 10;
+  margin-left: 800px;
   list-style: none;
   cursor: pointer;
 }
@@ -45,6 +47,7 @@ body {
 .herosection {
   display: flex;
   gap: 30px;
+  margin-bottom: 100px;
 }
 
 .left {
@@ -100,4 +103,40 @@ body {
   display: flex;
   flex-direction: column;
   width: 30%;
+  color: white;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.sidetittle {
+  color: hsl(35, 77%, 62%);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.sideheading {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.sideheading:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.sidebody {
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.603);
+  font-size: larger;
+}
+
+.sidecontents {
+  border: rgba(255, 255, 255, 0.301) solid 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 50px;
 }
