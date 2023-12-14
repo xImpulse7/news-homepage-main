@@ -140,3 +140,57 @@ body {
   border-right: 0px;
   margin-bottom: 50px;
 }
+
+.lower {
+  display: flex;
+  gap: 80px;
+}
+
+.number1 {
+  display: flex;
+  gap: 25px;
+  width: 35%;
+}
+
+.number2 {
+  display: flex;
+  gap: 25px;
+}
+
+.number3 {
+  display: flex;
+  gap: 25px;
+  width: 35%;
+}
+
+.lower-number {
+  font-size: xx-large;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.384);
+  margin-bottom: 20px;
+}
+
+.lower-heading {
+  font-size: larger;
+  font-weight: 800;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.lower-body {
+  color: rgba(0, 0, 0, 0.603);
+  font-weight: 600;
+}
+
+.small-image {
+  width: 150px;
+  height: 200px;
+}
+
+.lower-heading:hover {
+  color: hsl(35, 77%, 62%);
+}
+
+.attribution {
+  margin-top: 50px;
+}
